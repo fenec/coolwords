@@ -1,0 +1,15 @@
+Hi!
+This is my project that show you a list of cool english words
+
+<% for word in @words_list do %>
+<p>Word
+<%= word.word.inspect() %>
+</p>
+<p>
+Definition
+<%= word.definition.inspect() %>
+</p>
+<p>by
+</p>
+---
+<% end %>
